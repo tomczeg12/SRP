@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>System Rejestracji Przesyłek: Dokumentacja pliku C:/Users/01150992/Desktop/ZAP beta/logdialog.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">System Rejestracji Przesyłek
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funkcje</a> &#124;
+<a href="#var-members">Zmienne</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku C:/Users/01150992/Desktop/ZAP beta/logdialog.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Plik źródłowy modułu logdialog.  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="logdialog_8h_source.html">logdialog.h</a>&quot;</code><br />
+<code>#include &quot;ui_logdialog.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="admainwindow_8h_source.html">admainwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="klmainwindow_8h_source.html">klmainwindow.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="danedialog_8h_source.html">danedialog.h</a>&quot;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Wykres zależności załączania dla logdialog.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="logdialog_8cpp__incl.png" border="0" usemap="#_c_1_2_users_201150992_2_desktop_2_z_a_p_01beta_2logdialog_8cpp" alt=""/></div>
+<map name="_c_1_2_users_201150992_2_desktop_2_z_a_p_01beta_2logdialog_8cpp" id="_c_1_2_users_201150992_2_desktop_2_z_a_p_01beta_2logdialog_8cpp">
+<area shape="rect" title="Plik źródłowy modułu logdialog." alt="" coords="320,5,505,47"/>
+<area shape="rect" href="logdialog_8h.html" title="Plik nagłówkowy modułu logdialog." alt="" coords="124,95,208,121"/>
+<area shape="rect" title=" " alt="" coords="216,244,271,271"/>
+<area shape="rect" title=" " alt="" coords="565,95,666,121"/>
+<area shape="rect" href="admainwindow_8h.html" title="Plik nagłówkowy modułu admainwindow." alt="" coords="285,95,402,121"/>
+<area shape="rect" href="klmainwindow_8h.html" title="Plik nagłówkowy modułu klmainwindow." alt="" coords="427,95,540,121"/>
+<area shape="rect" href="danedialog_8h.html" title="Plik nagłówkowy modułu danedialog." alt="" coords="5,95,100,121"/>
+<area shape="rect" title=" " alt="" coords="691,95,756,121"/>
+<area shape="rect" title=" " alt="" coords="781,95,853,121"/>
+<area shape="rect" title=" " alt="" coords="40,169,108,196"/>
+<area shape="rect" title=" " alt="" coords="430,169,537,196"/>
+<area shape="rect" href="baza__przesylek_8h.html" title="Plik nagłówkowy modułu baza_przesyłek." alt="" coords="281,169,405,196"/>
+<area shape="rect" title=" " alt="" coords="561,169,691,196"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a02f7e2127638ad98902b0bcb39ce0478"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a02f7e2127638ad98902b0bcb39ce0478">b</a> (0)</td></tr>
+<tr class="separator:a02f7e2127638ad98902b0bcb39ce0478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a148fc8d2440e12296aea25b089f038"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a1a148fc8d2440e12296aea25b089f038">user</a> (0)</td></tr>
+<tr class="separator:a1a148fc8d2440e12296aea25b089f038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358d7993260b3e6cbd8260a2f1e451cc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a358d7993260b3e6cbd8260a2f1e451cc">ile_a</a> (0)</td></tr>
+<tr class="separator:a358d7993260b3e6cbd8260a2f1e451cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eb1556eac430d40a2ff703e1ca69b3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a3eb1556eac430d40a2ff703e1ca69b3c">ile_kl</a> (0)</td></tr>
+<tr class="separator:a3eb1556eac430d40a2ff703e1ca69b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21027f12c947bbed1b463ea8e3116ce2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a21027f12c947bbed1b463ea8e3116ce2">zapisz_rejestr_klient</a> (<a class="el" href="structlista__klient.html">lista_klient</a> *<a class="el" href="main_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a>)</td></tr>
+<tr class="separator:a21027f12c947bbed1b463ea8e3116ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3eca3f5bbd1e33225aa0a45fc0379d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#acd3eca3f5bbd1e33225aa0a45fc0379d">usun_liste_admin</a> (<a class="el" href="structlista__admin.html">lista_admin</a> *&amp;g)</td></tr>
+<tr class="separator:acd3eca3f5bbd1e33225aa0a45fc0379d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e94ae2dcc4802317f1274d1b60f843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a72e94ae2dcc4802317f1274d1b60f843">usun_liste_klient</a> (<a class="el" href="structlista__klient.html">lista_klient</a> *&amp;g1)</td></tr>
+<tr class="separator:a72e94ae2dcc4802317f1274d1b60f843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Zmienne</h2></td></tr>
+<tr class="memitem:a8bb08088309511b118b6edaccf86ce5a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a8bb08088309511b118b6edaccf86ce5a">login</a> = &quot;&quot;</td></tr>
+<tr class="memdesc:a8bb08088309511b118b6edaccf86ce5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">zmienna globalna login  <a href="logdialog_8cpp.html#a8bb08088309511b118b6edaccf86ce5a">Więcej...</a><br /></td></tr>
+<tr class="separator:a8bb08088309511b118b6edaccf86ce5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e14f2f5b3a9a73b84442e8db03091a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlista__admin.html">lista_admin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a65e14f2f5b3a9a73b84442e8db03091a">admin_log</a> = NULL</td></tr>
+<tr class="separator:a65e14f2f5b3a9a73b84442e8db03091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35515a11fbfd2a83dc8dd2b2a5f09aaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlista__klient.html">lista_klient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a35515a11fbfd2a83dc8dd2b2a5f09aaf">klient_log</a> = NULL</td></tr>
+<tr class="separator:a35515a11fbfd2a83dc8dd2b2a5f09aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2013573375ddd6eb60c0261487fd38a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlista__admin.html">lista_admin</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a> = NULL</td></tr>
+<tr class="memdesc:af2013573375ddd6eb60c0261487fd38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">zmienna globalna wskaźnikowa glowa  <a href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">Więcej...</a><br /></td></tr>
+<tr class="separator:af2013573375ddd6eb60c0261487fd38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126bc83b921959fdc99e6f212bf259cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlista__klient.html">lista_klient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a126bc83b921959fdc99e6f212bf259cf">glowa1</a> = NULL</td></tr>
+<tr class="memdesc:a126bc83b921959fdc99e6f212bf259cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">zmienna globalna wskaźnikowa glowa1  <a href="logdialog_8cpp.html#a126bc83b921959fdc99e6f212bf259cf">Więcej...</a><br /></td></tr>
+<tr class="separator:a126bc83b921959fdc99e6f212bf259cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a444ab7e833526fc700465f1c4dbc216c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structlista__klient.html">lista_klient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logdialog_8cpp.html#a444ab7e833526fc700465f1c4dbc216c">ogon1</a> = NULL</td></tr>
+<tr class="memdesc:a444ab7e833526fc700465f1c4dbc216c"><td class="mdescLeft">&#160;</td><td class="mdescRight">zmienna globalna wskaźnikowa ogon1  <a href="logdialog_8cpp.html#a444ab7e833526fc700465f1c4dbc216c">Więcej...</a><br /></td></tr>
+<tr class="separator:a444ab7e833526fc700465f1c4dbc216c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Plik źródłowy modułu logdialog. </p>
+</div><h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="a02f7e2127638ad98902b0bcb39ce0478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02f7e2127638ad98902b0bcb39ce0478">&#9670;&nbsp;</a></span>b()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int b </td>
+          <td>(</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zmienna globalna b zmienna globalna do zapamiętywania ile razy użytkownik próbuje się zalogować </p>
+
+</div>
+</div>
+<a id="a358d7993260b3e6cbd8260a2f1e451cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a358d7993260b3e6cbd8260a2f1e451cc">&#9670;&nbsp;</a></span>ile_a()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ile_a </td>
+          <td>(</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zmienna globalna ile_a zmienna globalna przechowująca ilosc użytkowników o statusie klient w bazie danych </p>
+
+</div>
+</div>
+<a id="a3eb1556eac430d40a2ff703e1ca69b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eb1556eac430d40a2ff703e1ca69b3c">&#9670;&nbsp;</a></span>ile_kl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ile_kl </td>
+          <td>(</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zmienna globalna ile_kl zmienna globalna przechowująca ilosc użytkowników o statusie administrator w bazie danych </p>
+
+</div>
+</div>
+<a id="a1a148fc8d2440e12296aea25b089f038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a148fc8d2440e12296aea25b089f038">&#9670;&nbsp;</a></span>user()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int user </td>
+          <td>(</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zmienna globalna user zmienna globalna do zapamiętywania jaki użytkownik się zalogował </p>
+
+</div>
+</div>
+<a id="acd3eca3f5bbd1e33225aa0a45fc0379d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3eca3f5bbd1e33225aa0a45fc0379d">&#9670;&nbsp;</a></span>usun_liste_admin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usun_liste_admin </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlista__admin.html">lista_admin</a> *&amp;&#160;</td>
+          <td class="paramname"><em>g</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja usuwa liste administratorów Pobiera adres pierwszego elementu listy i nic nie zwraca.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g</td><td>adres pierwszego elementu listy administratorów. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Uwaga</dt><dd>Dopóki istnieje element listy fukcja go usuwa </dd></dl>
+
+</div>
+</div>
+<a id="a72e94ae2dcc4802317f1274d1b60f843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e94ae2dcc4802317f1274d1b60f843">&#9670;&nbsp;</a></span>usun_liste_klient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void usun_liste_klient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlista__klient.html">lista_klient</a> *&amp;&#160;</td>
+          <td class="paramname"><em>g1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja usuwa liste klientów Pobiera adres pierwszego elementu listy i nic nie zwraca.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">g1</td><td>adres pierwszego elementu listy klientów. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Uwaga</dt><dd>Dopóki istnieje element listy fukcja go usuwa </dd></dl>
+
+</div>
+</div>
+<a id="a21027f12c947bbed1b463ea8e3116ce2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21027f12c947bbed1b463ea8e3116ce2">&#9670;&nbsp;</a></span>zapisz_rejestr_klient()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void zapisz_rejestr_klient </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structlista__klient.html">lista_klient</a> *&#160;</td>
+          <td class="paramname"><em>glowa</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Funkcja zapisuje rejestr klientów do pliku. Pobiera adres pierwszego elementu listy i nic nie zwraca.</p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">glowa</td><td>adres pierwszego elementu listy klientów. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section attention"><dt>Uwaga</dt><dd>jeżeli plik okaże się uszkodzony, bądź go nie będzie, funkcja zatrzyma swoje działanie. Następnie dopóki istnieje element listy fukcja zapisuje go do pliku </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja zmiennych</h2>
+<a id="a65e14f2f5b3a9a73b84442e8db03091a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e14f2f5b3a9a73b84442e8db03091a">&#9670;&nbsp;</a></span>admin_log</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlista__admin.html">lista_admin</a>* admin_log = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zmienna globalna wskaźnikowa admin_log adres elementu z listy administratorów w którym znajdują się dane zalogogwanego administratora </p>
+
+</div>
+</div>
+<a id="af2013573375ddd6eb60c0261487fd38a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2013573375ddd6eb60c0261487fd38a">&#9670;&nbsp;</a></span>glowa</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlista__admin.html">lista_admin</a>* glowa = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>zmienna globalna wskaźnikowa glowa </p>
+
+</div>
+</div>
+<a id="a126bc83b921959fdc99e6f212bf259cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126bc83b921959fdc99e6f212bf259cf">&#9670;&nbsp;</a></span>glowa1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlista__klient.html">lista_klient</a>* glowa1 = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>zmienna globalna wskaźnikowa glowa1 </p>
+
+</div>
+</div>
+<a id="a35515a11fbfd2a83dc8dd2b2a5f09aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35515a11fbfd2a83dc8dd2b2a5f09aaf">&#9670;&nbsp;</a></span>klient_log</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlista__klient.html">lista_klient</a>* klient_log = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>zmienna globalna wskaźnikowa klient_log adres elementu z listy klientów w którym znajdują się dane zalogogwanego klienta </p>
+
+</div>
+</div>
+<a id="a8bb08088309511b118b6edaccf86ce5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bb08088309511b118b6edaccf86ce5a">&#9670;&nbsp;</a></span>login</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string login = &quot;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>zmienna globalna login </p>
+
+</div>
+</div>
+<a id="a444ab7e833526fc700465f1c4dbc216c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444ab7e833526fc700465f1c4dbc216c">&#9670;&nbsp;</a></span>ogon1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structlista__klient.html">lista_klient</a>* ogon1 = NULL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>zmienna globalna wskaźnikowa ogon1 </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>

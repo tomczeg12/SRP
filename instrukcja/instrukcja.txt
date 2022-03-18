@@ -1,0 +1,10 @@
+1. Aby zalogowaæ siê jako administrator prosze wpisaæ nastêpuj¹ce dane : email - "admin@wp.pl", has³o - "admin".
+2. Aby zalogowaæ siê jako klient prosze wpisaæ nastêpuj¹ce dane : email - "klient@wp.pl", has³o - "klient".
+3. Aby sie zarejestrowaæ prosze klikn¹æ zarejestruj, a nastepnie wpisaæ wszytskie dane, aby ustawiæ has³o nale¿y wpisaæ je w pole nowe has³o oraz potwierdŸ nowe has³o.
+4. Nastêpnie nale¿y klikn¹æ przycisk "zaloguj" b¹dŸ enter.
+5. Po zalogowaniu jako administrator bêdzie Pan mia³ do dyspozycji nastêpuj¹ce funkcje: podgl¹d wszystkich paczek, zmiana danych przesy³ki, dodanie nowej paczki, 
+	zmiana statusu z automatycznie przypisywan¹ dat¹, wyszukanie paczki po numerze, usuniêcie paczki, przypisanie kuriera dostarczaj¹cego i odbieraj¹cego oraz zapisanie ca³ej sesji.
+6. Po zalogowaniu jako klient bêdzie Pan mia³ do dyspozycji nastêpuj¹ce funkcje: podgl¹d paczek tylko nadanych i wys³anych na, b¹dŸ przez u¿ytkownika, który siê zalogowa³(paczki wyœwietlane na podtawie adresu email), 
+	zmiana danych klienta, wys³anie nowej paczki z funkcj¹ automatycznego wype³niania pól danymi u¿ytkownika, wyszukanie paczki po numerze.
+
+Pliki dane_admin.txt, dane_klient.txt oraz zap_dane.txt, nale¿y umieœciæ w folderze w któym znajduje siê skompilowany projekt.

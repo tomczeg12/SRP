@@ -1,0 +1,4 @@
+1 Jan Kowalski Radom 03270 Warszawska 56 0 klient@wp.pl 505729871 Jan Nowak Radzionkowo 02828 Prosta 23 6 jkowal@wp.pl 876654678 34 45 21 345 123 111 3 20 5 2020 24 5 2020 25 5 2020 25 5 2020 0 0 0
+2 Piotr Malinowski Krakow 17650 Prosta 67 12 klient@wp.pl 808555321 Krzysztof Jarzyna Szczecin 07340 Szefowa 45 0 szefwszystkichszefow@wp.pl 666555444 11 12 21 5000 123 321 1 21 5 2020 25 5 2020 0 0 0 0 0 0 0 0 0
+3 Wiktoria Wysocka Wroclaw 30987 Poniatowskiego 112 15 wwysocka@wp.pl 123321123 Darek Wojtowicz Katowice 55-678 Nocna 23 0 dwojt@pw.pl 777666888 35 35 45 3400 111 55 0 22 5 2020 0 0 0 0 0 0 0 0 0 0 0 0
+4 Adam Oczko Warszawa 02673 Konstruktorska 113 0 aoczko@wp.pl 651431887 Igor Lis Wroc³aw 11230 Janowska 56 3 ilis@onet.pl 870456871 25 50 45 5600 0 0 0 24 5 2020 0 0 0 0 0 0 0 0 0 0 0 0

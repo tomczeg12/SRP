@@ -1,0 +1,2 @@
+admin@wp.pl admin
+admin1@wp.pl admin1

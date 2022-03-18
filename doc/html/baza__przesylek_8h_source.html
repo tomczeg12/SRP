@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.18"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>System Rejestracji Przesyłek: Plik źródłowy C:/Users/01150992/Desktop/ZAP beta/baza_przesylek.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.jpg"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">System Rejestracji Przesyłek
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.18 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">C:/Users/01150992/Desktop/ZAP beta/baza_przesylek.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="baza__przesylek_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#ifndef BAZA_PRZESYLEK_H</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#define BAZA_PRZESYLEK_H</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="structlista__paczek.html">   14</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structlista__paczek.html">lista_paczek</a></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structlista__paczek.html#ab0b984e4c2004c365c29ef79d96e1d63">   17</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#ab0b984e4c2004c365c29ef79d96e1d63">nr_paczki</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a548e723373e9b015c870cf1bac1d34d9">   19</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#a548e723373e9b015c870cf1bac1d34d9">imie_n</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structlista__paczek.html#ac2464a13bd6480e4786e990f6bf22ac0">   21</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#ac2464a13bd6480e4786e990f6bf22ac0">nazwisko_n</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="structlista__paczek.html#ac542c80624366101ef07d1f39aa5285a">   23</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#ac542c80624366101ef07d1f39aa5285a">miejscowosc_n</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="structlista__paczek.html#acf61a80787eb3dcca4ab96491d662bcb">   25</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#acf61a80787eb3dcca4ab96491d662bcb">kodpocztowy_n</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="structlista__paczek.html#af937b1b2f31abcab8ad9b4d6c0368f79">   27</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#af937b1b2f31abcab8ad9b4d6c0368f79">ulica_n</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a23889291525c5db86cc6b0c5266a08c8">   29</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#a23889291525c5db86cc6b0c5266a08c8">nrbudynku_n</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="structlista__paczek.html#ac4b5b23bfa2a7669d7f54eb0424a70c8">   31</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#ac4b5b23bfa2a7669d7f54eb0424a70c8">nrlokalu_n</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a44497502095f4b5b09f14ed4bff42934">   33</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#a44497502095f4b5b09f14ed4bff42934">email_n</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a15cf92cc48e1d340803528667ce75f45">   35</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#a15cf92cc48e1d340803528667ce75f45">nrtel_n</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a516e330f00c857e4cd6143be1e5da170">   37</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#a516e330f00c857e4cd6143be1e5da170">imie_o</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="structlista__paczek.html#aff6c48fa634358e3200b24fbf1d4f627">   39</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#aff6c48fa634358e3200b24fbf1d4f627">nazwisko_o</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structlista__paczek.html#aa96df8573966d335838e82dc7654ccb2">   41</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#aa96df8573966d335838e82dc7654ccb2">miejscowosc_o</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a03acfd102a6c83de94b18033d0f7002a">   43</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#a03acfd102a6c83de94b18033d0f7002a">kodpocztowy_o</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a5971a101b833ff4c5944dd611b02c979">   45</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#a5971a101b833ff4c5944dd611b02c979">ulica_o</a>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="structlista__paczek.html#abbadbf00c829b9708e0c3a08c46c2398">   47</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#abbadbf00c829b9708e0c3a08c46c2398">nrbudynku_o</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a6fb5c85b8a59d00788363b60e51b6e29">   49</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#a6fb5c85b8a59d00788363b60e51b6e29">nrlokalu_o</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a46307ce45a829b2c660e436d2af0203c">   51</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structlista__paczek.html#a46307ce45a829b2c660e436d2af0203c">email_o</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="structlista__paczek.html#abf5d11c8f899e78b4445f437374cbcd4">   53</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#abf5d11c8f899e78b4445f437374cbcd4">nrtel_o</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a49abf6da8ae71c47c9156a0ba83df99c">   55</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#a49abf6da8ae71c47c9156a0ba83df99c">waga_przesylki</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a880f363d84eb9e5d75f683c98a8b63a4">   57</a></span>&#160;    <span class="keywordtype">int</span> wymiary_przesylki[3];</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a56041b51520535ff4df124df9d96efe6">   59</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#a56041b51520535ff4df124df9d96efe6">nr_kuriera_n</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="structlista__paczek.html#ab77bdf6980e9c0e04bdc9b1afc446f6c">   61</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#ab77bdf6980e9c0e04bdc9b1afc446f6c">nr_kuriera_o</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a8aebe9dd7239fe412c5b6d73090ec4f3">   63</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structlista__paczek.html#a8aebe9dd7239fe412c5b6d73090ec4f3">status</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="structlista__paczek.html#ad9cf99613d20f273a25f6abd8c31290d">   65</a></span>&#160;    <span class="keywordtype">int</span> data_0[3];</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a2c1cfef6e91956ee6d914a9812bfd30b">   67</a></span>&#160;    <span class="keywordtype">int</span> data_1[3];</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a28e7e5e5c0f99782b1fa3ce3622900f7">   69</a></span>&#160;    <span class="keywordtype">int</span> data_2[3];</div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a316ce5d09554b2e29176256ac0cb1e75">   71</a></span>&#160;    <span class="keywordtype">int</span> data_3[3];</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="structlista__paczek.html#a1a87953f5af977b4a0c9203aa0d24947">   73</a></span>&#160;    <span class="keywordtype">int</span> data_4[3];</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="structlista__paczek.html#aff41164636ad0afff926a3d895712600">   75</a></span>&#160;    <a class="code" href="structlista__paczek.html">lista_paczek</a> * <a class="code" href="structlista__paczek.html#aff41164636ad0afff926a3d895712600">nast</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;};</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keywordtype">void</span> <a class="code" href="baza__przesylek_8h.html#ab912871b1bf380d6a7639e4f0e8f3f11">wczytaj_rejestr_paczek</a>(<a class="code" href="structlista__paczek.html">lista_paczek</a> *&amp; <a class="code" href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a>, <a class="code" href="structlista__paczek.html">lista_paczek</a> *&amp; ogon, <span class="keywordtype">string</span> nazwa);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="keywordtype">void</span> <a class="code" href="baza__przesylek_8h.html#acc41367c938e0b5b44f7a5c0fa16b035">zapisz_rejestr_paczek</a>(<a class="code" href="structlista__paczek.html">lista_paczek</a> * <a class="code" href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a>, <span class="keywordtype">string</span> nazwa);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="baza__przesylek_8h.html#a7ca44e7d82c1156633c59c47097d188b">usun</a>(<a class="code" href="structlista__paczek.html">lista_paczek</a> *&amp; <a class="code" href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a>, <a class="code" href="structlista__paczek.html">lista_paczek</a> *&amp; ogon, <a class="code" href="structlista__paczek.html">lista_paczek</a> * item);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">void</span> <a class="code" href="baza__przesylek_8h.html#ae8f55696afe868795762cb74c7765d87">usun_liste</a>(<a class="code" href="structlista__paczek.html">lista_paczek</a> *&amp; <a class="code" href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">#endif // BAZA_PRZESYLEK_H</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<div class="ttc" id="astructlista__paczek_html_a44497502095f4b5b09f14ed4bff42934"><div class="ttname"><a href="structlista__paczek.html#a44497502095f4b5b09f14ed4bff42934">lista_paczek::email_n</a></div><div class="ttdeci">string email_n</div><div class="ttdoc">Numer email nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:33</div></div>
+<div class="ttc" id="astructlista__paczek_html_acf61a80787eb3dcca4ab96491d662bcb"><div class="ttname"><a href="structlista__paczek.html#acf61a80787eb3dcca4ab96491d662bcb">lista_paczek::kodpocztowy_n</a></div><div class="ttdeci">string kodpocztowy_n</div><div class="ttdoc">Kod pocztowy miejsca zamieszkania nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:25</div></div>
+<div class="ttc" id="astructlista__paczek_html_ac542c80624366101ef07d1f39aa5285a"><div class="ttname"><a href="structlista__paczek.html#ac542c80624366101ef07d1f39aa5285a">lista_paczek::miejscowosc_n</a></div><div class="ttdeci">string miejscowosc_n</div><div class="ttdoc">Miejscowość zamieszkania nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:23</div></div>
+<div class="ttc" id="astructlista__paczek_html_a548e723373e9b015c870cf1bac1d34d9"><div class="ttname"><a href="structlista__paczek.html#a548e723373e9b015c870cf1bac1d34d9">lista_paczek::imie_n</a></div><div class="ttdeci">string imie_n</div><div class="ttdoc">Imie nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:19</div></div>
+<div class="ttc" id="astructlista__paczek_html_ab0b984e4c2004c365c29ef79d96e1d63"><div class="ttname"><a href="structlista__paczek.html#ab0b984e4c2004c365c29ef79d96e1d63">lista_paczek::nr_paczki</a></div><div class="ttdeci">int nr_paczki</div><div class="ttdoc">Numer przesyłki.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:17</div></div>
+<div class="ttc" id="astructlista__paczek_html_ac4b5b23bfa2a7669d7f54eb0424a70c8"><div class="ttname"><a href="structlista__paczek.html#ac4b5b23bfa2a7669d7f54eb0424a70c8">lista_paczek::nrlokalu_n</a></div><div class="ttdeci">int nrlokalu_n</div><div class="ttdoc">Numer mieszkania lub lokalu miejsca zamieszkania nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:31</div></div>
+<div class="ttc" id="astructlista__paczek_html_aa96df8573966d335838e82dc7654ccb2"><div class="ttname"><a href="structlista__paczek.html#aa96df8573966d335838e82dc7654ccb2">lista_paczek::miejscowosc_o</a></div><div class="ttdeci">string miejscowosc_o</div><div class="ttdoc">Miejscowość zamieszkania odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:41</div></div>
+<div class="ttc" id="abaza__przesylek_8h_html_ae8f55696afe868795762cb74c7765d87"><div class="ttname"><a href="baza__przesylek_8h.html#ae8f55696afe868795762cb74c7765d87">usun_liste</a></div><div class="ttdeci">void usun_liste(lista_paczek *&amp;glowa)</div><div class="ttdef"><b>Definition:</b> baza_przesylek.cpp:255</div></div>
+<div class="ttc" id="astructlista__paczek_html_a46307ce45a829b2c660e436d2af0203c"><div class="ttname"><a href="structlista__paczek.html#a46307ce45a829b2c660e436d2af0203c">lista_paczek::email_o</a></div><div class="ttdeci">string email_o</div><div class="ttdoc">Numer email odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:51</div></div>
+<div class="ttc" id="astructlista__paczek_html_aff41164636ad0afff926a3d895712600"><div class="ttname"><a href="structlista__paczek.html#aff41164636ad0afff926a3d895712600">lista_paczek::nast</a></div><div class="ttdeci">lista_paczek * nast</div><div class="ttdoc">Wskaźnik na adres kolejnego elementu listy paczek.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:75</div></div>
+<div class="ttc" id="abaza__przesylek_8h_html_ab912871b1bf380d6a7639e4f0e8f3f11"><div class="ttname"><a href="baza__przesylek_8h.html#ab912871b1bf380d6a7639e4f0e8f3f11">wczytaj_rejestr_paczek</a></div><div class="ttdeci">void wczytaj_rejestr_paczek(lista_paczek *&amp;glowa, lista_paczek *&amp;ogon, string nazwa)</div><div class="ttdef"><b>Definition:</b> baza_przesylek.cpp:27</div></div>
+<div class="ttc" id="astructlista__paczek_html_a56041b51520535ff4df124df9d96efe6"><div class="ttname"><a href="structlista__paczek.html#a56041b51520535ff4df124df9d96efe6">lista_paczek::nr_kuriera_n</a></div><div class="ttdeci">int nr_kuriera_n</div><div class="ttdoc">Numer kuriera odbierającego od nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:59</div></div>
+<div class="ttc" id="astructlista__paczek_html_a03acfd102a6c83de94b18033d0f7002a"><div class="ttname"><a href="structlista__paczek.html#a03acfd102a6c83de94b18033d0f7002a">lista_paczek::kodpocztowy_o</a></div><div class="ttdeci">string kodpocztowy_o</div><div class="ttdoc">Kod pocztowy miejsca zamieszkania odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:43</div></div>
+<div class="ttc" id="astructlista__paczek_html_a8aebe9dd7239fe412c5b6d73090ec4f3"><div class="ttname"><a href="structlista__paczek.html#a8aebe9dd7239fe412c5b6d73090ec4f3">lista_paczek::status</a></div><div class="ttdeci">int status</div><div class="ttdoc">Staus przsyłki, odpowiednio: 0 - do odebrania, 1 - odebrana od nadawcy, 2 - przyjeta w oddziale,...</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:63</div></div>
+<div class="ttc" id="astructlista__paczek_html_a5971a101b833ff4c5944dd611b02c979"><div class="ttname"><a href="structlista__paczek.html#a5971a101b833ff4c5944dd611b02c979">lista_paczek::ulica_o</a></div><div class="ttdeci">string ulica_o</div><div class="ttdoc">Ulica zamieszkania odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:45</div></div>
+<div class="ttc" id="astructlista__paczek_html_ac2464a13bd6480e4786e990f6bf22ac0"><div class="ttname"><a href="structlista__paczek.html#ac2464a13bd6480e4786e990f6bf22ac0">lista_paczek::nazwisko_n</a></div><div class="ttdeci">string nazwisko_n</div><div class="ttdoc">Nazwisko nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:21</div></div>
+<div class="ttc" id="astructlista__paczek_html_abf5d11c8f899e78b4445f437374cbcd4"><div class="ttname"><a href="structlista__paczek.html#abf5d11c8f899e78b4445f437374cbcd4">lista_paczek::nrtel_o</a></div><div class="ttdeci">int nrtel_o</div><div class="ttdoc">Numer telefonu odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:53</div></div>
+<div class="ttc" id="astructlista__paczek_html_af937b1b2f31abcab8ad9b4d6c0368f79"><div class="ttname"><a href="structlista__paczek.html#af937b1b2f31abcab8ad9b4d6c0368f79">lista_paczek::ulica_n</a></div><div class="ttdeci">string ulica_n</div><div class="ttdoc">Ulica zamieszkania nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:27</div></div>
+<div class="ttc" id="abaza__przesylek_8h_html_acc41367c938e0b5b44f7a5c0fa16b035"><div class="ttname"><a href="baza__przesylek_8h.html#acc41367c938e0b5b44f7a5c0fa16b035">zapisz_rejestr_paczek</a></div><div class="ttdeci">void zapisz_rejestr_paczek(lista_paczek *glowa, string nazwa)</div><div class="ttdef"><b>Definition:</b> baza_przesylek.cpp:147</div></div>
+<div class="ttc" id="astructlista__paczek_html_a15cf92cc48e1d340803528667ce75f45"><div class="ttname"><a href="structlista__paczek.html#a15cf92cc48e1d340803528667ce75f45">lista_paczek::nrtel_n</a></div><div class="ttdeci">int nrtel_n</div><div class="ttdoc">Numer telefonu nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:35</div></div>
+<div class="ttc" id="astructlista__paczek_html_abbadbf00c829b9708e0c3a08c46c2398"><div class="ttname"><a href="structlista__paczek.html#abbadbf00c829b9708e0c3a08c46c2398">lista_paczek::nrbudynku_o</a></div><div class="ttdeci">int nrbudynku_o</div><div class="ttdoc">Numer budynku miejsca zamieszkania odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:47</div></div>
+<div class="ttc" id="alogdialog_8cpp_html_af2013573375ddd6eb60c0261487fd38a"><div class="ttname"><a href="logdialog_8cpp.html#af2013573375ddd6eb60c0261487fd38a">glowa</a></div><div class="ttdeci">lista_admin * glowa</div><div class="ttdoc">zmienna globalna wskaźnikowa glowa</div><div class="ttdef"><b>Definition:</b> logdialog.cpp:37</div></div>
+<div class="ttc" id="astructlista__paczek_html_a6fb5c85b8a59d00788363b60e51b6e29"><div class="ttname"><a href="structlista__paczek.html#a6fb5c85b8a59d00788363b60e51b6e29">lista_paczek::nrlokalu_o</a></div><div class="ttdeci">int nrlokalu_o</div><div class="ttdoc">Numer mieszkania lub lokalu miejsca zamieszkania odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:49</div></div>
+<div class="ttc" id="abaza__przesylek_8h_html_a7ca44e7d82c1156633c59c47097d188b"><div class="ttname"><a href="baza__przesylek_8h.html#a7ca44e7d82c1156633c59c47097d188b">usun</a></div><div class="ttdeci">bool usun(lista_paczek *&amp;glowa, lista_paczek *&amp;ogon, lista_paczek *item)</div><div class="ttdef"><b>Definition:</b> baza_przesylek.cpp:199</div></div>
+<div class="ttc" id="astructlista__paczek_html_a23889291525c5db86cc6b0c5266a08c8"><div class="ttname"><a href="structlista__paczek.html#a23889291525c5db86cc6b0c5266a08c8">lista_paczek::nrbudynku_n</a></div><div class="ttdeci">int nrbudynku_n</div><div class="ttdoc">Numer budynku miejsca zamieszkania nadawcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:29</div></div>
+<div class="ttc" id="astructlista__paczek_html"><div class="ttname"><a href="structlista__paczek.html">lista_paczek</a></div><div class="ttdoc">Element listy paczek Definicja elementu listy jednokierunkowej dynamicznej listy paczek.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:15</div></div>
+<div class="ttc" id="astructlista__paczek_html_aff6c48fa634358e3200b24fbf1d4f627"><div class="ttname"><a href="structlista__paczek.html#aff6c48fa634358e3200b24fbf1d4f627">lista_paczek::nazwisko_o</a></div><div class="ttdeci">string nazwisko_o</div><div class="ttdoc">Nazwisko odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:39</div></div>
+<div class="ttc" id="astructlista__paczek_html_a49abf6da8ae71c47c9156a0ba83df99c"><div class="ttname"><a href="structlista__paczek.html#a49abf6da8ae71c47c9156a0ba83df99c">lista_paczek::waga_przesylki</a></div><div class="ttdeci">int waga_przesylki</div><div class="ttdoc">Masa całkowita przesyłki.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:55</div></div>
+<div class="ttc" id="astructlista__paczek_html_ab77bdf6980e9c0e04bdc9b1afc446f6c"><div class="ttname"><a href="structlista__paczek.html#ab77bdf6980e9c0e04bdc9b1afc446f6c">lista_paczek::nr_kuriera_o</a></div><div class="ttdeci">int nr_kuriera_o</div><div class="ttdoc">Numer kuriera dostarczającego do odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:61</div></div>
+<div class="ttc" id="astructlista__paczek_html_a516e330f00c857e4cd6143be1e5da170"><div class="ttname"><a href="structlista__paczek.html#a516e330f00c857e4cd6143be1e5da170">lista_paczek::imie_o</a></div><div class="ttdeci">string imie_o</div><div class="ttdoc">Imie odbiorcy.</div><div class="ttdef"><b>Definition:</b> baza_przesylek.h:37</div></div>
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.18
+</small></address>
+</body>
+</html>

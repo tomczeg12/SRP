@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>acceptDialog</class>
+ <widget class="QDialog" name="acceptDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>120</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>350</width>
+    <height>120</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/img/img/logo2.png</normaloff>:/img/img/logo2.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: rgb(57, 57, 57);
+font: 10pt &quot;Calibri&quot;;
+}
+
+QLineEdit{
+font: 75 10pt &quot;Calibri&quot;;
+color: rgb(57, 57, 57);
+background-color: rgb(246, 246, 246);
+border-style: groove;
+border-color: rgb(160, 160, 160);
+border-radius:10px;
+}
+
+QPushButton{
+font: 75 10pt &quot;Calibri&quot;;
+font-weight: bold;
+color: rgb(57, 57, 57);
+background-color: rgb(246, 246, 246);
+border-style: solid;
+border-radius:10px;
+width: 80px;
+height:24px;
+}
+
+
+QPushButton:hover{
+color: rgb(57, 57, 57);
+background-color: rgb(246, 246, 246);
+border-color: rgb(57, 57, 57);
+border-width: 2px;
+}
+
+QPushButton:pressed{
+color:  rgb(246, 246, 246);
+border-color:   rgb(246, 246, 246);
+background-color: rgb(57, 57, 57);
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>8</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="leInfo">
+     <property name="minimumSize">
+      <size>
+       <width>330</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>7</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>58</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbUsun">
+       <property name="text">
+        <string>usuń</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pbAnuluj">
+       <property name="text">
+        <string>anuluj</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>58</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>8</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pbAnuluj</sender>
+   <signal>clicked()</signal>
+   <receiver>acceptDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>205</x>
+     <y>111</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pbUsun</sender>
+   <signal>clicked()</signal>
+   <receiver>acceptDialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>109</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

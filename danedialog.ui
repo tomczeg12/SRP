@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>daneDialog</class>
+ <widget class="QDialog" name="daneDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>405</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>405</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>405</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Moje konto</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/img/img/logo2.png</normaloff>:/img/img/logo2.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QGroupBox{
+font: 10pt &quot;Calibri&quot;;
+color: #142639;
+border-radius:12px;
+background-color:#64b2d5;
+height:142 px;
+width:202px;
+}
+
+QDialog{
+background-color: #145c7f;
+font: 10pt &quot;Calibri&quot;;
+}
+
+QLabel{
+font: 10pt &quot;Calibri&quot;;
+color:#142639;
+}
+
+QLineEdit{
+font: 75 10pt &quot;Calibri&quot;;
+color: #145c7f;
+background-color: rgb(246, 246, 246);
+border-style: groove;
+border-color: #64b2d5;
+border-radius:10px;
+height:20px;
+}
+
+QPushButton{
+font: 75 10pt &quot;Calibri&quot;;
+font-weight: bold;
+color: #145c7f;
+background-color: rgb(246, 246, 246);
+border-style: solid;
+border-radius:10px;
+width: 80px;
+height:24px;
+}
+
+
+QPushButton:hover{
+color: #145c7f;
+background-color: rgb(246, 246, 246);
+border-color: #145c7f;
+border-width: 2px;
+}
+
+QPushButton:pressed{
+color:  rgb(246, 246, 246);
+border-color:   rgb(246, 246, 246);
+background-color: #145c7f;
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_6">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>118</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/img/img/logo1.jpg);
+border-radius:0px;
+width:115px;
+height:115px;
+</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>118</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string> Dane kontaktowe</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="leimie_n">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="placeholderText">
+           <string>imie</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lenazwisko_n">
+          <property name="placeholderText">
+           <string>nazwisko</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="leemail_n">
+          <property name="placeholderText">
+           <string>adres e-mail</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="letel_n">
+          <property name="placeholderText">
+           <string>numer telefonu</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string> Dane adresowe</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="leulica_n">
+          <property name="placeholderText">
+           <string>ulica</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLineEdit" name="lenrdom_n">
+            <property name="placeholderText">
+             <string>nr. domu</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lenrlok_n">
+            <property name="placeholderText">
+             <string>nr. mieszkania</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lemiasto_n">
+          <property name="placeholderText">
+           <string>miasto</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lekodpoczt_n">
+          <property name="placeholderText">
+           <string>kod pocztowy</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QGroupBox" name="groupBox_3">
+       <property name="maximumSize">
+        <size>
+         <width>202</width>
+         <height>112</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">height:110 px;
+width:202px;</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string> Dane do logowania</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lehaslo">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>obecne hasło</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lenowehaslo">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>nowe hasło</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lenowehaslo1">
+          <property name="echoMode">
+           <enum>QLineEdit::Password</enum>
+          </property>
+          <property name="placeholderText">
+           <string>potwierdz nowe hasło</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="leinfo">
+         <property name="styleSheet">
+          <string notr="true">background-color: #145c7f;
+color: rgb(170, 0, 0)</string>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>68</width>
+           <height>28</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pbZapisz">
+         <property name="text">
+          <string>Zapisz</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
